@@ -85,7 +85,7 @@ p { margin: 0; padding-bottom: 1em; }
 .welcome-badge img { display: block; max-width: 300px; margin: 0 auto; }
 
 /* parallax */
-.parallax { padding: 200px 0; background: #fff url("img/home_middle.jpg") center center / cover no-repeat; background-attachment: fixed; }
+.parallax { padding: 200px 0; background: #fff url("img/parallax.jpg") center center / cover no-repeat; background-attachment: fixed; }
 
 /* locations */
 .locations { background: #F7F7F7; padding: 54px 0; box-shadow: inset 0 0 7px rgba(0,0,0,.1); text-align: center; }
