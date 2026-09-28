@@ -1,8 +1,6 @@
-# NWECP redesign mockups
+# NWECP homepage mockups
 
-Two static design concepts for a cleaner nwecp.net homepage. Unofficial; all links are placeholders.
+Two static mockups for a redesign of the nwecp.net homepage. Not affiliated with the practice. The links on the pages are placeholders.
 
-| | live page |
-|---|---|
-| Editorial (navy, serif, hairline rules) | https://twang35.github.io/nwecp-mockup/ |
-| Pacific Northwest (warm, evergreen treeline, phone-first) | https://twang35.github.io/nwecp-mockup/pnw/ |
+- Main version: https://twang35.github.io/nwecp-mockup/
+- Pacific Northwest version: https://twang35.github.io/nwecp-mockup/pnw/
