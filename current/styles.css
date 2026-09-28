@@ -79,10 +79,8 @@ p { margin: 0; padding-bottom: 1em; }
 /* welcome */
 .welcome { padding: 54px 0; }
 .two-col { display: flex; gap: 5.5%; align-items: flex-start; }
-.welcome-text { flex: 0 0 60%; padding: 15px; }
+.welcome-text { flex: 1; max-width: 760px; padding: 15px; }
 .welcome-text h1 { color: #14476f; }
-.welcome-badge { flex: 1; padding-top: 30px; }
-.welcome-badge img { display: block; max-width: 300px; margin: 0 auto; }
 
 /* parallax */
 .parallax { padding: 200px 0; background: #fff url("img/parallax.jpg") center center / cover no-repeat; background-attachment: fixed; }
@@ -173,7 +171,6 @@ p { margin: 0; padding-bottom: 1em; }
   .blurb { flex: 0 0 50%; margin: 0; }
   .two-col { flex-direction: column; }
   .welcome-text { flex: none; padding: 0; }
-  .welcome-badge { padding-top: 0; }
   .parallax { padding: 100px 0; background-attachment: scroll; }
   .loc-row { flex-direction: column; }
   .hours-row { margin-top: 0; }
