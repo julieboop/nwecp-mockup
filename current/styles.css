@@ -37,7 +37,7 @@ p { margin: 0; padding-bottom: 1em; }
 #top-menu { list-style: none; margin: 0; padding: 0; display: flex; align-items: center; justify-content: space-evenly; }
 #top-menu > li { position: relative; }
 
-#top-menu a { font-family: "Source Sans Pro", Arial, sans-serif; font-weight: 700; font-size: 17px; color: #242424; display: block; padding: 34px 0; white-space: nowrap; }
+#top-menu a { font-family: "Source Sans Pro", Arial, sans-serif; font-weight: 700; font-size: 19px; color: #242424; display: block; padding: 34px 0; white-space: nowrap; }
 #top-menu a:hover, #top-menu li.current > a { color: #1e6dac; }
 #top-menu li.has-children > a::after { content: ""; display: inline-block; width: 5px; height: 5px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(45deg); margin: 0 0 3px 7px; }
 #top-menu li ul { display: none; position: absolute; top: 100%; left: -20px; background: #fff; list-style: none; margin: 0; padding: 20px 0; width: 240px; border-top: 3px solid #1e6dac; box-shadow: 0 2px 5px rgba(0,0,0,.1); }
