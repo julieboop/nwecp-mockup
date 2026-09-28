@@ -55,7 +55,7 @@ p { margin: 0; padding-bottom: 1em; }
 
 /* hero (replaces the video header) */
 .fullwidth-header {
-  position: relative; background: #333 url("img/video-fallback.jpg") center center / cover no-repeat;
+  position: relative; background: #333 url("img/hero.jpg") center center / cover no-repeat;
   padding: 200px 0; color: #fff;
 }
 .header-overlay { position: absolute; inset: 0; background: rgba(22,22,22,.15); }
