@@ -33,9 +33,10 @@ p { margin: 0; padding-bottom: 1em; }
 #main-header { background: #fff; box-shadow: 0 0 0 transparent; position: relative; z-index: 20; }
 #main-header .container { width: 90%; max-width: 1280px; display: flex; align-items: center; justify-content: space-between; height: 90px; }
 .logo img { display: block; height: 72px; width: auto; }
-#top-menu { list-style: none; margin: 0; padding: 0; display: flex; align-items: center; }
-#top-menu > li { position: relative; padding-right: 18px; }
-#top-menu > li:last-child { padding-right: 0; }
+#top-menu-nav { flex: 1; margin-left: 40px; }
+#top-menu { list-style: none; margin: 0; padding: 0; display: flex; align-items: center; justify-content: space-evenly; }
+#top-menu > li { position: relative; }
+
 #top-menu a { font-family: "Source Sans Pro", Arial, sans-serif; font-weight: 700; font-size: 15px; color: #242424; display: block; padding: 34px 0; white-space: nowrap; }
 #top-menu a:hover, #top-menu li.current > a { color: #1e6dac; }
 #top-menu li.has-children > a::after { content: ""; display: inline-block; width: 5px; height: 5px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(45deg); margin: 0 0 3px 7px; }
