@@ -41,6 +41,15 @@
   .clinics strong { display: block; color: var(--navy); font-family: "Source Sans Pro", Arial, sans-serif; font-size: 15px; }
   .clinics span { display: block; color: #5a6670; }
 
+  .clinics span { padding-left: 26px; }
+  .clinic-pick { display: flex; align-items: center; gap: 8px; margin: 0; cursor: pointer; }
+  input[type=checkbox] { width: 18px; height: 18px; margin: 0; accent-color: var(--navy); flex: none; }
+  .field { margin-top: 14px; }
+  .field > label { margin-top: 0; }
+  .phone-row { display: flex; align-items: flex-end; gap: 16px; }
+  .phone-row input[type=tel] { flex: 1; min-width: 0; }
+  .check { display: flex; align-items: center; gap: 6px; margin: 0 0 6px; white-space: nowrap; cursor: pointer; }
+
   fieldset { border: 0; margin: 26px 0 0; padding: 0; }
   legend { font: 700 20px "Source Sans Pro", Arial, sans-serif; color: var(--navy); padding: 0 0 6px; width: 100%; border-bottom: 2px solid var(--navy); margin-bottom: 4px; }
 
@@ -102,9 +111,9 @@
   </header>
 
   <div class="clinics">
-    <div><strong>Hillsboro</strong><span>5880 NE Cornell Rd, Ste. B</span><span>(Orenco Station)</span><span>P: (503) 905-2828</span></div>
-    <div><strong>Clackamas</strong><span>15259 SE 82nd Dr, #101</span><span>(near Clackamas Town Center)</span><span>P: (503) 657-0321</span></div>
-    <div><strong>Vancouver</strong><span>1401 SE 164th Ave, #100</span><span>(east Vancouver)</span><span>P: (360) 546-2046</span></div>
+    <div><label class="clinic-pick"><input type="checkbox" name="clinic" value="Hillsboro"><strong>Hillsboro</strong></label><span>5880 NE Cornell Rd, Ste. B</span><span>(Orenco Station)</span><span>P: (503) 905-2828</span></div>
+    <div><label class="clinic-pick"><input type="checkbox" name="clinic" value="Clackamas"><strong>Clackamas</strong></label><span>15259 SE 82nd Dr, #101</span><span>(near Clackamas Town Center)</span><span>P: (503) 657-0321</span></div>
+    <div><label class="clinic-pick"><input type="checkbox" name="clinic" value="Vancouver"><strong>Vancouver</strong></label><span>1401 SE 164th Ave, #100</span><span>(east Vancouver)</span><span>P: (360) 546-2046</span></div>
   </div>
 
   <div class="grid">
@@ -116,7 +125,14 @@
   <fieldset>
     <legend>Patient contact info</legend>
     <div class="grid">
-      <label>Preferred phone<input type="tel" name="patient_phone" autocomplete="tel"></label>
+      <div class="field">
+        <label for="patient_phone">Preferred phone</label>
+        <div class="phone-row">
+          <input type="tel" id="patient_phone" name="patient_phone" autocomplete="tel">
+          <label class="check"><input type="checkbox" name="phone_cell"> Cell</label>
+          <label class="check"><input type="checkbox" name="phone_home"> Home</label>
+        </div>
+      </div>
       <label>Email<input type="email" name="patient_email" autocomplete="email"></label>
       <label class="full">Address<input type="text" name="patient_address" autocomplete="street-address"></label>
       <label>Date of birth<input type="date" name="dob"></label>
